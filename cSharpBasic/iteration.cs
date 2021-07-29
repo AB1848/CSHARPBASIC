@@ -22,7 +22,7 @@ class ItrationStatement
     {
        if (x % 2 == 0)
        {
-           console.writeline ($"{x} is even");
+          Console.WriteLine ($"{x} is even");
 
        } 
        else

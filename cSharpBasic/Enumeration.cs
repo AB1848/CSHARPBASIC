@@ -5,7 +5,7 @@ namespace DayWeek
 
     enum DayOfWeek
     {
-        sunday, monday, tuesday, wednesday, wednesday, thursday, friday, saturday
+        sunday, monday, tuesday, wednesday, thursday, friday, saturday
     }
 
     internal class Demo
