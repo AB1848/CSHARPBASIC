@@ -30,27 +30,27 @@ class ItrationStatement
            Console.WriteLine($"{x} is odd");
         }
     }//learning while loop and do while loop
-      void LearnWhileLoop()
-      {
-        char confirm='y';
+//       void LearnWhileLoop()
+//       {
+//         char confirm='y';
 
-        while(confirm=='y')
+//         while(confirm=='y')
 
-        {
-            Console.WriteLine("i am beautiful");
-            Console.WriteLine("want to contd.");
-            confirm=Console.ReadKey().KeyChar;
+//         {
+//             Console.WriteLine("i am beautiful");
+//             Console.WriteLine("want to contd.");
+//             confirm=Console.ReadKey().KeyChar;
 
-        }
-        do
-        {
-            Console.WriteLine("i am beautiful");
-            Console.WriteLine("want to contd.");
-            confirm=Console.ReadKey().KeyChar;
-        }
-        while(confirm=='y');
-      } 
+//         }
+//         do
+//         {
+//             Console.WriteLine("i am beautiful");
+//             Console.WriteLine("want to contd.");
+//             confirm=Console.ReadKey().KeyChar;
+//         }
+//         while(confirm=='y');
+//       } 
 
-  }
+//   }
     
-}
+// }
