@@ -2,7 +2,7 @@ using System;
 class ItrationStatement
 {
 
-    static void Main()
+    static void main23()
     {
         ItrationStatement i = new ItrationStatement();
         i.LearnForloop();
