@@ -7,7 +7,9 @@ namespace AllAboutConstructors
         public string Name { get; set; }//This is a property 
         public int Population { get; set; }
         public readonly double AREA = 1234.56;//this is a constant variable 
-         // Deafult constructor 
+        public static readonly bool isonEARTH;
+        //instance constructor 
+         // Deafult constructor -parameter less constructor
         public Country()
         {
 
@@ -15,7 +17,7 @@ namespace AllAboutConstructors
 
 
 
-        // paramelterized constructor 
+        // parameterized constructor 
         public Country(string name)
         {
            Name = name;
@@ -27,7 +29,10 @@ namespace AllAboutConstructors
             Population = population;
             AREA = area;
         }
-
+        static Country()
+        {
+          isonEARTH = true;
+        }
     }
 
     public class demo
