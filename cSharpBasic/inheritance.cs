@@ -14,7 +14,11 @@ public abstract class Shape
 
 
 }
-public class Rectangle : Shape
+interface IDiagonalComputable
+{
+    public double GetDiagonal();
+}
+public class Rectangle : Shape,IDiagonalComputable
 {
     public double Length { get; set; }
     public double Breadth { get; set; }
@@ -35,6 +39,9 @@ public class Rectangle : Shape
         Console.WriteLine($"the area and the circumference of rectangle [{Length }x {Breadth}]");
         Console.WriteLine($"area:{this.GetArea()} Circumference:{this.GetCircumference()}");
     }
+     
+    public double GetDiagonal()=>Math.Sqrt(Length*Length+Breadth*Breadth);
+
 
 }
 public class Square : Rectangle
